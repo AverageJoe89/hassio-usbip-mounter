@@ -28,7 +28,7 @@ devices:
   - /dev/mem
 schema:
   devices:
-    - server_address: match(^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$)
+    - server_address: str
       bus_id: str
 options:
   devices: []
